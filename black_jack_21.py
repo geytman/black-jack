@@ -3,13 +3,9 @@
     Dealer hits until she reaches 17 . Aces count as 1 or 11
     At first player have 100 Chips , Game Over if player have 0 Chips Or When player Decides to leave
 
-
-    *Python3.X Black_Jack_21
-
 '''
 
 import random
-
 
 class Card:
     def __init__(self):
@@ -104,7 +100,7 @@ class Beautiful_printing:
                 print("  | {} {}     |".format(x[y], x[y + 1]))
                 print(" ---------------------")
                 y = y + 2
-        print(player.value)  # For people who do not understand
+        print(player.value)  # For people who do not understand in Card
 
     @staticmethod
     def dealer_printing(dealer):
