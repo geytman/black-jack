@@ -1,6 +1,3 @@
-# hello world
-
-
 class Card:
     def __init__(self):
         self.cart = {
